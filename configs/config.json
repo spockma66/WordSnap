@@ -1,0 +1,29 @@
+{
+    "camera_resolutions": {
+        "high": {"width": 1920, "height": 1080},
+        "medium": {"width": 1600, "height": 900},
+        "low": {"width": 1280, "height": 720}
+    },
+    "camera_settings": {
+        "gain": 1,
+        "shutter": 50000
+    },
+    "camera_type": "usbcam", 
+    "usbcam_path": "/dev/video0",
+    "selected_resolution": "high",
+    "interval_seconds": 3,
+    "similarity_threshold": 0.8,
+    "ocr_model_path": "models/en_PP-OCRv4_rec_infer.onnx",
+    "black_list":["Redmi"],
+    "epsilon": 80,
+    "current_mode": "normal",
+    "highlight_vocab_list": ["vocabularies/toefl.txt", "vocabularies/gre.txt"],
+    "ollama_api": {
+        "url":"http://localhost:11434/api/generate",
+        "data": {
+            "model": "qwen2.5:1.5b",
+            "prompt": "请用简短的中文，解释单词{word}在下面这段英文中的意思：{full_text} 同时也要说明这个单词的常见用法。"
+        }
+    },
+    "pronunciation_hint": "点单词听发音："
+}

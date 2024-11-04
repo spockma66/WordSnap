@@ -1,0 +1,25 @@
+{
+    "normal_text": {
+        "font_family": "Arial",
+        "font_size": 18,
+        "font_color": "#000000", 
+        "line_spacing": 1.5
+    },
+    "highlight_text": {
+        "font_family": "Arial Bold",
+        "font_size": 18,
+        "font_color": "#FF4500", 
+        "line_spacing": 1.5
+    },
+    "explanation_text": {
+        "font_family": "Arial",
+        "font_size": 15,
+        "font_color": "#333333"  
+    },
+        "button_text": {
+        "font_family": "Arial",
+        "font_size": 14
+    },
+    "text_bg_color": "beige",
+    "line_breaking_threshold": 30
+}

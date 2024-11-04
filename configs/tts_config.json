@@ -1,0 +1,8 @@
+{
+    "sherpa_model_path": "models/sherpa-onnx-v1.10.30-linux-aarch64-static/bin/sherpa-onnx-offline-tts-play-alsa",
+    "num_threads": 2,
+    "vits_model": "models/sherpa-onnx-v1.10.30-linux-aarch64-static/bin/vits-piper-en_US-bryce-medium/en_US-bryce-medium.onnx",
+    "vits_tokens": "models/sherpa-onnx-v1.10.30-linux-aarch64-static/bin/vits-piper-en_US-bryce-medium/tokens.txt",
+    "vits_data_dir": "models/sherpa-onnx-v1.10.30-linux-aarch64-static/bin/vits-piper-en_US-bryce-medium/espeak-ng-data",
+    "vits_length_scale": 1.2
+}
