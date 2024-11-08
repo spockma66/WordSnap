@@ -14,7 +14,7 @@
     "interval_seconds": 3,
     "similarity_threshold": 0.8,
     "ocr_model_path": "models/en_PP-OCRv4_rec_infer.onnx",
-    "black_list":["Redmi"],
+    "black_list":[],
     "epsilon": 80,
     "current_mode": "normal",
     "highlight_vocab_list": ["vocabularies/toefl.txt", "vocabularies/gre.txt"],
