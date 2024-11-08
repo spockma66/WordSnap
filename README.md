@@ -34,7 +34,7 @@
     - USB扬声器
   - 树莓派5和机箱![](https://i.imgur.com/NnXSktl.jpeg) 由于跑大模型使得发热量增加，这次尝试了大机箱，主动散热风扇效果也更好。但并非必须使用它，它本身价格也比普通机箱更高
   - USB 扬声器![](https://i.imgur.com/Rpzwd4P.jpeg) 电商平台购买，比较好找，38元
-  - **高清摄像头（能拍摄 1080P 图片）**![](https://i.imgur.com/1YgFmmX.jpeg) 电商平台购买，能实现16倍光学 + 4倍数码变焦，229块。需要仔细找一下，大部分的知名品牌都比较贵
+  - **高清摄像头（能拍摄 1080P 图片）**![](https://i.imgur.com/1YgFmmX.jpeg) 电商平台购买，能实现16倍光学 + 4倍数码变焦，229元。需要仔细找一下，大部分的知名品牌都比较贵
     - 识别电视的摆放要求：通过支架悬空到座位上方，确保跟其他物品都不接触，保证稳定性![](https://i.imgur.com/VMwvuqJ.jpeg) 背面看过去正好对着电视![](https://i.imgur.com/502fZlb.jpeg) 图上使用的这类支架，在电商平台一般百元左右可以买到，属于手机直播支架，加个通用的摄像头转接头就可以
     - 识别电脑的摆放要求：放在座位稍微偏一点儿的地方，高度差不多坐着到眼睛，向下俯拍![](https://i.imgur.com/SOyKlQy.jpeg) 拍摄角度如下（摄像头实拍照片）![](https://i.imgur.com/6ERlHdj.jpeg) 
 - **更新系统**：开机后先执行 `sudo apt update`，`sudo apt upgrade`，或者使用系统 UI 的更新功能
@@ -91,7 +91,7 @@
 - **720p 的 USB 摄像头可以用吗？** 不推荐，我的使用效果不好
 - **树莓派官方摄像头可以用吗？** 至少 3 代可以，拍电视效果较好，见下图。但很难拍电脑，CSI 扁线又短又难扭转，无法验证实际效果
   - 使用效果![](https://i.imgur.com/NyJowsO.jpeg) 
-  - 摄像头摆放方式。摄像头是官方 camera module 3 wide（289 块），连接线是 50 厘米 CSI 摄像头连接线（29 块）![](https://i.imgur.com/jNvWZHi.jpeg) 
+  - 摄像头摆放方式。摄像头是官方 camera module 3 wide（289 元），连接线是 50 厘米 CSI 摄像头连接线（29 元）![](https://i.imgur.com/jNvWZHi.jpeg) 
   - 拍摄角度，通过 test 模式获得照片，方框中为识别出的文字![](https://i.imgur.com/fmgV7lQ.png) 
   - 最终识别结果截屏![](https://i.imgur.com/k3s16PI.png) 
 - **各种游戏场景的识别效果都很好吗？** 对于动画效果明显，或者字体明暗对比强烈，又或者有很多花体字的游戏界面，例如刚进入游戏时的主菜单，识别效果可能略差
