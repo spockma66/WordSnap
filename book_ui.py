@@ -251,7 +251,7 @@ class BookUI:
         # Show each word on the page and make it responsive to touch
         word_cnt = 0
         for index, raw_word in enumerate(words):
-            split_raw_word = re.split(r"[^a-zA-Z\'0-9-]+", raw_word)
+            split_raw_word = re.split(r"[^a-zA-Z]+", raw_word)
             word = None
             
             # Find the real word after removing English symbols from raw word
@@ -260,10 +260,7 @@ class BookUI:
                     word = w
                     break
             
-            if word is None:
-                continue
-            else:
-                word_cnt += 1
+            word_cnt += 1
         
             highlight_word_tag = "highlight_" + str(index)
             normal_word_tag = "normal_" + str(index)
@@ -281,6 +278,9 @@ class BookUI:
             if word_cnt > int(self.__ui_config.get('line_breaking_threshold')) and raw_word[-1] in [".", "?", "!"]:
                 page_widget.insert(tk.END, "\n\n", "line_breaking")
                 word_cnt = 0
+        
+        page_widget.tag_config("line_spacing", spacing2=self.__ui_config['line_spacing'])
+        page_widget.tag_add("line_spacing", "1.0", "end")
         
         logger.info("Page populating ended")
     
