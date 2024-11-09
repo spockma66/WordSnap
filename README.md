@@ -25,12 +25,12 @@
 
 **硬件准备**
 
-- **烧录系统**：在 [Raspberry Pi 官方网站](https://www.raspberrypi.com/software/)下载 Raspberry Pi Imager，按说明在 TF 卡上安装 Raspberry Pi OS。教程很多，请自行搜索
+- **烧录系统**：在 [Raspberry Pi 官方网站](https://www.raspberrypi.com/software/)下载 Raspberry Pi Imager，按说明在 TF 卡上安装 Raspberry Pi OS。需要一张几十元的tf卡（常见为64G），和一二十元的读卡器。操作教程很多，请自行搜索
 - **机器安装**
   - 重要配件![](https://i.imgur.com/QPyhtJv.jpeg) 上图中主要包括
-    - 树莓派5（8G）和机箱
+    - 树莓派5（8G）和机箱，树莓派中已经插入烧录完成的TF卡
     - 10寸触摸屏，由树莓派5供电，通过 HDMI 和 USB 口连接。用它是因为在桌面占用空间小，非触摸屏使用效果相同
-    - 无线桌面键盘
+    - USB无线键盘
     - USB扬声器
   - 树莓派5和机箱![](https://i.imgur.com/NnXSktl.jpeg) 由于跑大模型使得发热量增加，这次尝试了大机箱，主动散热风扇效果也更好。但并非必须使用它，它本身价格也比普通机箱更高
   - USB 扬声器![](https://i.imgur.com/Rpzwd4P.jpeg) 电商平台购买，比较好找，38元
