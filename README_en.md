@@ -133,7 +133,7 @@ The test environment for this project mainly consists of a Raspberry Pi 5 with 8
     (You can also check the installation methods on the official website [ollama.com](https://ollama.com)), then download the model locally:
 
     ```bash
-    ollama pull qwen2.5:1.5b
+    ollama pull qwen2.5:1.5b-instruct-q4_K_M
     ```
 
   - To use the USB camera, you also need to install `fswebcam` and `mplayer`; they will be used in later steps.
