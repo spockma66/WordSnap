@@ -45,7 +45,7 @@
 
 - **基础组件**
   - Python 使用 Raspberry Pi OS 自带的 3.11 版
-  - 安装 Ollama：`curl -fsSL https://ollama.com/install.sh | sh`（也可以到官网自行查找安装方式 [ollama.com](https://ollama.com)），然后下载模型到本地：`ollama pull qwen2.5:1.5b`
+  - 安装 Ollama：`curl -fsSL https://ollama.com/install.sh | sh`（也可以到官网自行查找安装方式 [ollama.com](https://ollama.com)），然后下载模型到本地：`ollama pull qwen2.5:1.5b-instruct-q4_K_M`
   - 为了使用 USB 摄像头，还需要安装 fswebcam 和 mplayer，它们会在后面环节发挥作用
     - 强烈建议在测试摄像头前，确认要使用的摄像头的设备路径。先执行 `lsusb` 命令，在 USB 设备中，能看到摄像头名字；然后执行 `v4l2-ctl --list-devices` 命令，显示摄像头对应的几个设备路径，用第一个就行。需要确保，config文件中的usbcam_path，跟实际查出来的设备路径保持一致
     - 安装 mplayer：`sudo apt install mplayer -y`，然后测试。如果设备是 `/dev/video0`，测试时直接执行 `sudo mplayer tv://`。否则加上 `"-tv device=具体设备路径"` 这个参数再运行
